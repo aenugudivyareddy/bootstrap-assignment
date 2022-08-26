@@ -1,0 +1,162 @@
+
+
+*{font-family:Poppins,sans-serif;font-weight:200}
+
+body{
+
+}
+
+.navbar-collapse .nav-menu-btn{
+        background: rgba(92,106,196,.1)!important;
+        border-radius: 20px;
+        color: #5c6ac4!important;
+        border-color: transparent!important;
+         border: 1px solid #eaeaea;
+         min-width: 150px;
+         padding: 0.7em 2.1em;
+         font-size: 14px;
+         font-weight: 600;
+         color: #222;
+         line-height: 1.5em;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #666 !important;
+    font-weight: 700;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color: #666;
+
+}
+
+.hero-item{
+    padding-top: 100px;
+}
+
+.hero-btn{
+    background-color: #5c6ac4;
+    color: #fff;
+    padding: 10px 14px !important;
+    min-width: 180px;
+    font-weight: 600 !important;
+    border-radius: 20px !important;
+    cursor: pointer !important;
+}
+
+.client-logos{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    align-items: center;
+}
+.client-logos > div{
+    margin-right: 20px;
+    padding: 3px;
+
+}
+.hero-heading > p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.hero-heading .btn .hero-btn{
+    
+    font-size: 15px;
+}
+.client-logos {
+    margin-top: 60px;
+}
+.hero-heading > h1{
+    font-size: 60px;
+}
+.col-sm-12 col-md-6 col-lg-6 col-xl-6{
+    margin-bottom: 30px;
+
+}
+.horizontal-line-class > hr{
+    color:#666;
+    margin-top: 115px;
+    margin-bottom: 115px;
+
+}
+
+
+
+
+
+
+
+
+
+.hero-content >h1{
+    font-weight: 400px;
+    font-size: 40px;
+}
+
+.hero-content > p{
+    margin-bottom: 25px;
+    font-size:16px;
+}
+
+
+
+
+
+.hero-content .hero-btn{
+    margin-top: 25px;
+    font-size: 15px;
+    background-color: rgba(92,106,196,.1);
+    color: #5c6ac4;
+    margin-left-25px;
+    
+}   
+.hero-content .hero-btn:hover{
+    color:#fff;
+    background-color: #5c6ac4;
+}
+
+
+  .hero-heading1.box-border  , .hero-heading2.box-border {
+    color: #666;
+    font-size: 14px;  
+    border: 1px solid #eaeaea; 
+    padding:40px 30px 35px; 
+    margin-bottom:30px;
+    margin-left: 15px;
+    
+  }
+  
+  .hero-heading1.box-border h1 {
+
+    font-size: 14px;
+    line-height: 1.6em;
+    padding: 15px;
+    
+ 
+  }
+  .hero-heading1.box-border.box-1:hover{
+    
+ background-color: #563d7c;
+  }
+  .hero-heading1.box-border.box-2:hover{
+    background-color:lightsalmon;
+  }
+  .hero-heading2.box-border.box-3:hover{
+    background-color:violet;
+  }
+  .hero-heading2.box-border.box-4:hover{
+    background-color: aqua;
+  }
+
+  
+.hero-heading2.box-border h1{
+    
+    font-size: 14px;
+    line-height: 1.6em;
+    padding:15px;
+   
+   
+   
+   
+
+    
+}
