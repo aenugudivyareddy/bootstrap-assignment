@@ -2,9 +2,6 @@
 
 *{font-family:Poppins,sans-serif;font-weight:200}
 
-body{
-
-}
 
 .navbar-collapse .nav-menu-btn{
         background: rgba(92,106,196,.1)!important;
@@ -45,7 +42,7 @@ body{
 
 .client-logos{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     padding-top: 30px;
     align-items: center;
 }
@@ -68,24 +65,14 @@ body{
 .hero-heading > h1{
     font-size: 60px;
 }
-.col-sm-12 col-md-6 col-lg-6 col-xl-6{
-    margin-bottom: 30px;
 
-}
+
 .horizontal-line-class > hr{
     color:#666;
     margin-top: 115px;
     margin-bottom: 115px;
 
 }
-
-
-
-
-
-
-
-
 
 .hero-content >h1{
     font-weight: 400px;
@@ -97,16 +84,12 @@ body{
     font-size:16px;
 }
 
-
-
-
-
 .hero-content .hero-btn{
     margin-top: 25px;
     font-size: 15px;
     background-color: rgba(92,106,196,.1);
     color: #5c6ac4;
-    margin-left-25px;
+    margin-left:25px;
     
 }   
 .hero-content .hero-btn:hover{
@@ -119,44 +102,153 @@ body{
     color: #666;
     font-size: 14px;  
     border: 1px solid #eaeaea; 
-    padding:40px 30px 35px; 
-    margin-bottom:30px;
-    margin-left: 15px;
-    
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    padding: 40px 10px 35px;    
+    transition: transform 250ms;
+
   }
+
+
+  .hero-heading1.box-border:hover , .hero-heading2.box-border:hover{
+    transform: translateY(-20px); 
+    box-shadow: #563d7c;
+    /* background-image: linear-gradient(120deg,rgba(87,82,208,.6) 0%,#5752d0); */
+    box-shadow: 0 10px 19px 1px rgb(87 82 208 / 20%);
+    /* transform-origin: right bottom; */
+          /* transform: rotateX(10deg) rotateY(-10deg) translateZ(0); */
+    
+          transform: translate3d(0px , -10px , 0px) rotateX(8deg) rotateY(-8deg);
+
+
+  }
+
   
-  .hero-heading1.box-border h1 {
+  
+  .hero-heading1.box-border h1 ,
+   .hero-heading2.box-border h1 {
 
     font-size: 14px;
     line-height: 1.6em;
     padding: 15px;
-    
+    margin-top: 25px;
+    margin-bottom: 80px;
+    min-height: 100px;
+    max-height: 100px;
+    overflow: hidden;
+
  
   }
   .hero-heading1.box-border.box-1:hover{
     
- background-color: #563d7c;
+ /* background-color: #563d7c; */
+  background-image: linear-gradient(to right, rgba(87,82,208,.6) , #5752d0); 
+ 
   }
   .hero-heading1.box-border.box-2:hover{
-    background-color:lightsalmon;
+    /* background-color:lightsalmon; */
+    background-image: linear-gradient(to right, rgba(222,54,24,.6) , #de3618); 
+
   }
   .hero-heading2.box-border.box-3:hover{
-    background-color:violet;
+    /* background-color:violet; */
+    background-image: linear-gradient(to right, rgba(156,106,222,.6) , #9c6ade); 
+
   }
   .hero-heading2.box-border.box-4:hover{
-    background-color: aqua;
+    /* background-color: aqua; */
+    background-image: linear-gradient(to right, rgba(71,193,191,.6)  , #47c1bf); 
+
   }
 
-  
-.hero-heading2.box-border h1{
+
+.hero-heading1 .icon-text,
+.hero-heading2 .icon-text{
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 16px;
+    margin-left: 10px;
+    background-color: rgba(87,82,208,.1);
+    color: #5752d0;
+    position: relative;
+    top: 10%;
     
+}
+
+
+.text-decoration{
+    color: #fff !important;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+
+
+
+.box-link{
+    position: absolute;
+    bottom: 8px;
+    padding: 10px 10px;
+     color: #fff !important; 
     font-size: 14px;
-    line-height: 1.6em;
-    padding:15px;
-   
-   
-   
+    font-weight: 600;
+    transform: translateY(-20px);
+
+}
+
+
+
+.box-main-div1{
+    padding:5px;
+    margin-bottom: 30px;
+    padding-top:10px;
+}
+
+
+.box-main-div2{
+    padding:5px;
+    margin-bottom: 30px;
+    padding-top:10px;
+    position: relative;
+    bottom: 50px;
+}
+
+.box-main-div3{
+    padding:5px;
+    margin-bottom: 30px;
+    padding-top:10px;
+}
+
+.box-main-div4{
+    padding:5px;
+    margin-bottom: 30px;
+    padding-top:10px;
+    position: relative;
+    bottom: 50px;
+}
+
    
 
-    
+
+
+@media screen and (max-width:767px){
+    .box-main-div2 , .box-main-div4{
+         margin-left: 0px !important; 
+        margin-top: 30px ;  
+    }
+
+    .hero-heading > h1{
+        font-size: 38px;
+    }
+
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:991px){
+    .hero-heading > h1{
+        font-size: 38px;
+    }
 }
