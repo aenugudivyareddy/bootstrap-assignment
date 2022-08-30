@@ -1,6 +1,6 @@
 
 
-*{font-family:Poppins,sans-serif;font-weight:200}
+*{font-family:Poppins,sans-serif;font-weight:200 }
 
 
 .navbar-collapse .nav-menu-btn{
@@ -24,6 +24,10 @@
 .navbar .navbar-nav .nav-item .nav-link{
     color: #666;
 
+}
+
+#creative{
+    overflow: hidden;
 }
 
 .hero-item{
@@ -138,9 +142,66 @@
     min-height: 100px;
     max-height: 100px;
     overflow: hidden;
+  }
 
+
+  .box-1 .icon-text{
+    background-color: rgba(87,82,208,.1);
  
   }
+
+  .box-1 .icon-text .fa-id-card{
+    color:rgba(87,82,208);
+    font-weight: 900;
+  }
+
+  .hero-heading1:hover .fa-id-card{
+    color: #fff;
+}
+
+  .box-2 .icon-text{
+    background-color: rgba(222,54,24,.1);
+ 
+  }
+  .box-2 .icon-text .fa-id-card{
+    color:rgba(222,54,24);
+    font-weight: 900;
+  }
+
+  .hero-heading1:hover .fa-id-card{
+    color: #fff;
+}
+
+
+  .box-3 .icon-text{
+    background-color: rgba(156,106,222,.6); 
+  }
+
+  .box-3 .icon-text .fa-camera-retro{
+    color:rgba(156,106,222);
+    font-weight: 900;
+  }
+
+  .hero-heading2:hover .fa-camera-retro{
+    color: #fff !important;
+}
+
+
+  .box-4 .icon-text{
+    background-color: rgba(71,193,191,.6);
+ 
+  }
+
+  .box-4 .icon-text .fa-id-card{
+    color:rgba(71,193,191);
+    font-weight: 900;
+  }
+
+  .hero-heading2:hover .fa-id-card{
+    color: #fff;
+}
+
+
   .hero-heading1.box-border.box-1:hover{
     
  /* background-color: #563d7c; */
@@ -170,7 +231,6 @@
     border-radius: 50%;
     padding: 16px;
     margin-left: 10px;
-    background-color: rgba(87,82,208,.1);
     color: #5752d0;
     position: relative;
     top: 10%;
@@ -252,3 +312,67 @@
         font-size: 38px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+.hero-item2 { 
+    text-align: center;
+    display: flex;
+    align-items: center !important;
+
+}
+
+.hero-item3 {
+    text-align: center;
+    display: flex;
+    align-items:center !important;
+}
+
+.hero-content2 , .icon-text >h1{
+    font-size: 18px;
+    color:black;
+
+}
+.hero-content2 , .icon-text>p{
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    color: #666;
+    flex-direction: column;
+
+}
+
+.hero-content2 , .logo-border{
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6em;
+    font-weight: 300;
+    /* -webkit-font-smoothing: antialiased; */
+    font-family: 'Roboto',sans-serif;
+    
+}
+
+.hero-content2 .icon-text,
+.hero-content3 .icon-text{
+    color: #5752d0;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+    
+    
+
+
+
+
+
