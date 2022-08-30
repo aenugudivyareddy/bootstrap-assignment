@@ -369,10 +369,60 @@
     height: 50px;
 }
 
+
+.hero-banner3{
+    text-align: center;
+}
+ .bootstrap-carousel,
+ .hero-banner3 >p{
+    color:#666;
+}
+.bootstrap-carousel >p{
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    color: #666;
+}
     
+.carousel-images{
+    padding: 40px;
+    color: #666;
+    line-height: 1.6em;
+    box-sizing: border-box;
     
+   
+}
+    
+.head-name{
+    color: #222;
+}
 
+.carousel-control-next{
+    right: -21px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    top:100%;
+}
+ 
+    
+  .carousel-control-prev{
+    right: -21px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    top:100%;
+        
 
+  }  
 
-
-
+.carousel-inner{
+        
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border:1px solid whitesmoke;
+    }
