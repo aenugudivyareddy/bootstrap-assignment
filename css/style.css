@@ -17,6 +17,25 @@
          line-height: 1.5em;
 }
 
+.main-footer-nav{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: -1 !important;
+}
+/*body{
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+*/
+.sticky-footer{
+    margin-top: -20px;
+}
+
+.add-bg-color{
+    background: #fff;
+}
 .navbar-light .navbar-nav .active>.nav-link{
     color: #666 !important;
     font-weight: 700;
@@ -75,8 +94,14 @@
     color:#666;
     margin-top: 115px;
     margin-bottom: 115px;
-
 }
+
+.horizontal-line-class1 > hr{
+    color:#666;
+    background: #fff;
+    height: 100px;
+}
+
 
 .hero-content >h1{
     font-weight: 400px;
@@ -419,7 +444,15 @@
     z-index: 99999; */
 
 }
-
+.carousel-control-next{
+    position:absolute;
+    top:128px;
+    bottom:0px;
+    display: flex;
+    align-items: center;
+    
+    
+}
 
 
   
@@ -526,14 +559,46 @@
 .sub-block-footer{
     margin: 30px 0px;
     padding-bottom: 30px;
+    color: #666;
+
 }
 
 .f-1-footer ul{
     list-style-type: none;
     text-decoration: none;
-    color: #fff;
+    color: #666;
+    color:white;
+    
+  
 }
 
 .f-1-footer ul li a{
-    color: #abb8c3;
+    color: #666;
+   cursor: pointer;
+   font-size: 14px;
+}
+.f-1-footer ul li{
+    line-height: 2;
+}
+
+.main-footer-sub-3{
+    text-align: center;
+    color: #666;
+}
+.f-1-footer ul li a:hover{
+    color:white;
+    text-decoration: none;
+}
+.main-footer-sub1{
+    color: #666;
+    
+}
+.black-footer-heading-cls .more-btn{
+    background-color: white;
+    color:black;
+    border-radius: 20px;
+}
+
+.creative{
+margin-bottom: 485px;
 }
